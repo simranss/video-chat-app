@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "description": "Client Side for a Full-Stack project for video chatting between two people",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
@@ -24,6 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "keywords": [],
+  "author": "Simran Sharma",
   "eslintConfig": {
     "extends": [
       "react-app",

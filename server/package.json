@@ -1,13 +1,13 @@
 {
   "name": "video-chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server for a Full-Stack project for video chatting between two people",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Simran Sharma",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
