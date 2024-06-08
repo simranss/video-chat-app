@@ -1,0 +1,6 @@
+export const VIDEO_INITIAL = 'VIDEO_INITIAL';
+export const VIDEO_LOADING = 'VIDEO_LOADING';
+export const VIDEO_SUCCESS = 'VIDEO_SUCCESS';
+export const VIDEO_PLAY = 'VIDEO_PLAY';
+export const VIDEO_PAUSE = 'VIDEO_PAUSE';
+export const VIDEO_FAILED = 'VIDEO_FAILED';
