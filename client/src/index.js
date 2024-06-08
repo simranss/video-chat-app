@@ -5,6 +5,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from './store';
+import { callInitial } from "./call_state/actions";
+import { videoInitial } from "./video_state/actions";
+import { reactionInitial } from "./reaction_state/actions";
+
+store.dispatch(callInitial());
+store.dispatch(videoInitial());
+store.dispatch(reactionInitial());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
