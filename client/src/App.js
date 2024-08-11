@@ -133,7 +133,7 @@ function App() {
 
           socket.on(`${roomId}-user-left`, (socketId) => {
             if (socketId && socketId !== socket.id) {
-              remoteVideo.current.srcObject = null;
+              remoteVideo.current.srcObject = MediaStream();
             }
           });
 
